@@ -21,8 +21,8 @@ import org.jsoup.nodes.Element;
  */
 public class RealPriceExam {
 	public static void main(String[] args) {
-		
-		String uri = "http://plvr.land.moi.gov.tw//Download?type=zip&fileName=lvr_landxml.zip"
+
+		String uri = "zip:http://plvr.land.moi.gov.tw//Download?type=zip&fileName=lvr_landxml.zip"
 				+ "!/E_LVR_LAND_A.XML";
 
 
